@@ -1,10 +1,8 @@
-import Header from "./components/Header/Header"
-import Main from "./components/Main/Main"
-import Footer from "./components/Footer/Footer"
+import { DashboardLayout } from "./module/DashboardLayout/DashboardLayout";
+import { MainContent } from "./module/MainContent/MainContent";
+
 export function App() {
-    return <div>
-<Header/>
-<Main/>
-<Footer/>
-    </div>
-  }
+    return <DashboardLayout>
+        <MainContent />
+    </DashboardLayout>
+}
