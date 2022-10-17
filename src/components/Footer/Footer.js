@@ -21,7 +21,7 @@ export default function BottomAppBar() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar position="fixed" color="primary" sx={{ top: 'auto', bottom: 0 }}>
+      <AppBar component="footer" position="fixed" color="primary" sx={{ top: 'auto', bottom: 0 }}>
         <Toolbar>
         <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
         <TableBody>

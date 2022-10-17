@@ -2,6 +2,8 @@
 
 export default function Main({ children }) {
     return (
-        <div>{children}</div>
+        <div style={{
+            height: "100vh"
+        }}>{children}</div>
     );
 }
